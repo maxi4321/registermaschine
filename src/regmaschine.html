@@ -25,6 +25,14 @@
 09 OUT 00    ; Ausgabe des Akkumulatorinhalts
 10 HLT 99    ; Programmende
     </script>
+    
+    <script class="asm" id="test.asm" language="text/registermaschine">
+; Testscript für das Testen der Pfeile
+; ==============================================
+01 JMP 64
+63 HLT 99
+64 JMP 01
+    </script>
 
     <script class="asm" id="mittelw.asm" language="text/registermaschine">
 ; Mittelwert zu einzugebenden Zahlen ermitteln und ausgeben
